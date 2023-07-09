@@ -1,9 +1,8 @@
 package com.cillow.customstuff;
 
-import com.cillow.customstuff.item.ModItems;
+import com.cillow.customstuff.blocks.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.item.Item;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,7 +22,7 @@ public class CustomStuff implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
